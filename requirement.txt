@@ -1,0 +1,6 @@
+python-docx
+flask
+werkzeug
+xml
+docx
+boto3
