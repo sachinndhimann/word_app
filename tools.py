@@ -4,8 +4,8 @@ import docx
 
 s3 = boto3.client(
    "s3",
-   aws_access_key_id='AKIATOLWS23WJQWFAWG7',
-   aws_secret_access_key='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'
+   aws_access_key_id='',
+   aws_secret_access_key=''
 )
 
 

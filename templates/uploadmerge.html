@@ -1,0 +1,17 @@
+<html>
+   <body>
+      <form action = "http://localhost:5000/documents/merge" method = "POST" 
+         enctype = "multipart/form-data">
+         <input type = "file" name = "files[]" /></br>
+		   <input type = "file" name = "files[]" /></br>
+		     <input type = "file" name = "files[]" /></br>
+         Type of Merge: 
+         <select name="mergeType" id="mType">
+            <option value="section">Section</option>
+            <option value="page">Page</option>
+      
+      </br>
+         <input type = "submit"/>
+      </form>
+   </body>
+</html>

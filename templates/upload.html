@@ -1,8 +1,14 @@
 <html>
    <body>
-      <form action = "http://localhost:5000/documents/merge" method = "POST" 
+      <form action = "http://localhost:5000/documents/split" method = "POST" 
          enctype = "multipart/form-data">
-         <input type = "file" name = "file" />
+         <input type = "file" name = "file" /></br>
+         Type of Split: 
+         <select name="splitType" id="sType">
+            <option value="section">Section</option>
+            <option value="soft"> Soft Page Break</option></br>
+            <option value="hard">Hard Page Break</option></br>
+
          <input type = "submit"/>
       </form>
    </body>

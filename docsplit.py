@@ -51,6 +51,15 @@ def xml_to_docx(self,filepath):
     os.rename(filepath + ".zip", filepath + ".docx") 
 
 def split_by_pagebreak(self):
+    """
+    
+    for run in paragraph.runs:
+        if 'lastRenderedPageBreak' in run._element.xml:  
+        print 'soft page break found at run:', run.text[:20] 
+    if 'w:br' in run._element.xml and 'type="page"' in run._element.xml:
+        print 'hard page break found at run:', run.text[:20]
+    
+    """
     content = self.header
     namespace = {'w': "http:// schemas.openxm1formats.org/wordprocessingm1/2006/main"}
     count=0

@@ -4,3 +4,4 @@ werkzeug
 xml
 docx
 boto3
+docxcompose
